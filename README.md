@@ -29,7 +29,7 @@ The code is mainly organized into 2 main folders: client for handling the fronte
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/finance-tracker.git
+   git clone https://github.com/GauravChopra9/finance-tracker.git
    cd finance-tracker
    ```
 
@@ -53,5 +53,21 @@ The code is mainly organized into 2 main folders: client for handling the fronte
    ```bash
    npm start
    ```
+
+### Frontend Setup
+
+1. Open a new terminal and navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Install frontend dependencies:
+   ```bash
+  npm install
+   ```
+3. Start the frontend development server
+  ```bash
+  npm start
+   ```
+   
 
 
