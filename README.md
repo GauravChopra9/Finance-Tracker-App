@@ -62,13 +62,13 @@ The code is mainly organized into 2 main folders: client for handling the fronte
    ```
 2. Install frontend dependencies:
    ```bash
-  npm install
+   npm install
    ```
 
 3. Start the frontend development server:
   ```bash
   npm start
-   ```
+  ```
    
 
 
