@@ -34,4 +34,29 @@ router.post('/', async (req: Request , res: Response) => {
     }
 })
 
+router.put('/', async (req: Request , res: Response) => {
+    try {
+        const newRecordBody = req.body();
+        const newRecord = new FinancialRecordModel(newRecordBody);
+        const savedRecord = await newRecord.save();
+        res.status(200).send(savedRecord);
+    }
+    catch (err) {
+        res.status(500).send(err);
+
+    }
+})
+
+router.delete('/', async (req: Request , res: Response) => {
+    try {
+        const newRecordBody = req.body();
+        const newRecord = new FinancialRecordModel(newRecordBody);
+        const savedRecord = await newRecord.save();
+        res.status(200).send(savedRecord);
+    }
+    catch (err) {
+        res.status(500).send(err);
+
+    }
+})
 export default router;
