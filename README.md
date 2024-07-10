@@ -31,4 +31,27 @@ The code is mainly organized into 2 main folders: client for handling the fronte
    ```bash
    git clone https://github.com/yourusername/finance-tracker.git
    cd finance-tracker
+   ```
+
+2. Navigate to backend directory:
+   ```bash
+   cd backend
+   ```
+
+3. Install backend dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Create a .env file and add the following:
+   ```bash
+   PORT=5000
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   ```
+5. Start the Backend server
+   ```bash
+   npm start
+   ```
+
 
