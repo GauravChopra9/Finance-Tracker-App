@@ -14,12 +14,10 @@ The code is mainly organized into 2 main folders: client for handling the fronte
 - Secure storage of user data
 
 ## Technologies Used
-Frontend: React, HTML, CSS, JavaScript
-Backend: Express, Node.js
-Database: MongoDB
-Authentication: JSON Web Tokens (JWT)
-Charting: Chart.js
-State Management: Redux
+- Frontend: React, HTML, CSS, JavaScript
+- Backend: Express, Node.js
+- Database: MongoDB
+- Authentication: Clerk API
 
 ## Installation
 ### Prerequisites
