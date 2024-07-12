@@ -22,7 +22,7 @@ export const FinancialRecordForm = () => {
     };
 
     // This function will add the records to the database
-    // addRecord(newRecord)
+    //addRecord(newRecord)
 
     // Log the record for now to check if it's being created correctly
     console.log(newRecord);
