@@ -12,6 +12,7 @@ interface FinancialRecord {
     paymentMethod: string;
 }
 
+
 interface FinancialRecordsContextType {
     records: FinancialRecord[];
     addRecord: (record: FinancialRecord) => void;
