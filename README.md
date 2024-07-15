@@ -3,7 +3,7 @@
 ## Overview
 The Finance Tracker App is a comprehensive application designed to help users track their finances effectively. It provides features for recording income and expenses, categorizing transactions, and visualizing financial data. This application uses React for the frontend, Express and Node.js for the backend, and MongoDB for the database.
 
-The code is mainly organized into 2 main folders: client for handling the frontend and sever handling the backend functioanlity respectively
+The code is mainly organized into 2 main folders or parts: client for handling the frontend and server for handling the backend functionality.
 
 ## Features
 
