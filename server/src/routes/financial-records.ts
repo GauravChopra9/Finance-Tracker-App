@@ -56,7 +56,7 @@ router.put('/:id', async (req: Request , res: Response) => {
 })
 
 // This is going to do updates for us (Put is used for updates)
-router.put('/:id', async (req: Request , res: Response) => {
+router.delete('/:id', async (req: Request , res: Response) => {
     try {
         const id = req.params.id;
         const record = await FinancialRecordModel.findByIdAndDelete(id);
