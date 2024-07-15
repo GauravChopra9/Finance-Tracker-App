@@ -7,7 +7,7 @@ The code is mainly organized into 2 main folders or parts: client for handling t
 
 ## Features
 
-- User authentication and authorization
+- User authentication and authorization with Clerk API
 - Record and categorize income and expenses
 - View financial summaries and charts
 - Responsive design for mobile and desktop
